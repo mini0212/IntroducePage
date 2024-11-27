@@ -101,6 +101,16 @@
 	transition: transform 0.3s ease;
 }
 
+.video-section__container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.video-section__container iframe {
+	padding: 24px;
+}
+
 .album-section__item img:hover {
 	transform: scale(1.5);
 }
