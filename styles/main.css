@@ -57,6 +57,7 @@
 	color: black;
 	font-size: 16px;
 	font-weight: 600;
+	cursor: pointer;
 }
 
 .introduce-section__button img {
@@ -65,6 +66,11 @@
 	border-radius: 50%;
 	border: 1px solid black;
 	overflow: hidden;
+}
+
+.introduce-section__button:hover {
+	background-color: gray;
+	scale: 1.1;
 }
 
 .introduce-section__description-container {
